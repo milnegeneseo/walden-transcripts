@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/WaldenMSODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/WaldenMSODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Walden MS: HM 924 images 196-197, 202-203</title>
+            <editor>Paul Schacht</editor>
+            <editor>Beth Witherell</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Walden: A Fluid-Text Edition is published by Digital Thoreau at The State University of New York College at Geneseo. </p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Hungtington Library</repository>
+                  <idno>HM 924</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Henry David Thoreau</author>
+                     <title>Walden</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <bibl>
+               Transcripts of leaves from HM 924, Volume I mainly containing material from the A (first) version of the chapter "Higher Laws".
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>These transcripts show the original sequence of textual material in a stretch of "Higher Laws," Version A. in Walden as published in 1854. Additionally, it shows material originally contiguous with material that was published as part of "The Ponds," Version A.</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Samples of HM 924 intended to show textual content in its original sequence, together with relevant material details of the manuscript such as authorial notes, particular marks for insertion and cancellation, authorial content not included in Walden, and content in hands other than the author's.</p>
+         </samplingDecl>   
+         <editorialDecl> 
+            <p>This is a trial encoding intended to help the Digital Thoreau editorial team determine the best approach to representing Thoreau's revision process in the Walden manuscript. The encoding marks "milestones" in the flow of text on the manuscript surface to identify where textual content was relocated by Thoreau in subsequent revisions. Each is a milestone in the sense that its original location represents a stage in the revision process that was later superseded. The encoding also attempts to capture material features of the manuscript relevant to understanding Thoreau's revisions and to distinguishing his interventions on the manuscript surface from those of other authors, most notably Franklin Benjaimin Sanborn.</p>
+            <p>Thoreau's standard deletion marks include
+               
+               Horizontal strikethrough 
+               Vertical strikeout straight (one or more straight vertical lines extended across multiple lines of text)
+               Vertical strikeout angled (one or more angled vertical lines extended across multiple lines of text)
+               Wavy strikeout (wavy line extended across multiple lines of text)
+               Parentheses
+               Box
+               
+               Insertions and cancellations are typically in ink or pencil. Text inserted in one medium may be canceled in the other. We use the handShift element and @medium attribute to mark changes in medium.               
+               </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="hdt">
+                  <persName>Henry David Thoreau</persName>
+               </person>
+               <person xml:id="fbs">
+                  <persName>Franklin Benjamin Sanborn</persName>
+               </person>
+               <person xml:id="ps">
+                  <persName>Paul Schacht</persName>
+                  <note resp="#ebb">PI, organizer, and editor on the Walden MS project</note>
+               </person>
+               <person xml:id="ehw">
+                  <persName>Beth Witherell</persName>
+                  <note resp="#ebb">Editor-in-chief of the <bibl><title level="s">The Writings of
+                           Henry D. Thoreau</title>
+                        <ptr target="http://thoreau.library.ucsb.edu/"/></bibl>, editor on the
+                     Walden MS project</note>
+               </person>
+               <person xml:id="ebb">
+                  <persName>Elisa Beshero-Bondar</persName>
+                  <note resp="#ebb">editor on the Walden MS project</note>
+               </person>
+               <person xml:id="nw">
+                  <persName>Nikolaus Wasmoen</persName>
+                  <note resp="#ebb">editor on the Walden MS project</note>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surfaceGrp n="Higher Laws 1c; The Ponds 3a, 28a">
+         <surface xml:id="hm924v1n196">
+            <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/196/full/pct:30/0/default.jpg"></graphic>
+            <zone type="numbering" ulx="2100" uly="800" lrx="3200" lry="1130"  facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/196/2100,800,1100,330/pct:30/0/default.jpg">
+               <mod><add place="margin-top-left"><handShift medium="pencil" resp="#fbs"/>P. 274</add></mod>                  </zone>
+            <zone type="numbering" ulx="7130" uly="785" lrx="7820" lry="1075" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/196/7130,785,690,290/pct:30/0/default.jpg">
+               <mod><add place="margin-top-right"><handShift medium="pencil" resp="#hdt"/>135</add></mod>
+           </zone>
+            <zone type="numbering" ulx="7145" uly="6490" lrx="7815" lry="7210" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/196/7145,6490,670,720/pct:30/0/default.jpg">
+               <mod><add place="margin-right-middle"><handShift medium="pencil" resp="#fbs"/>P. 275</add></mod>
+            </zone>
+            
+            <zone type="textflow" subtype="body-text" ulx="1470" uly="970" lrx="7830" lry="8770" facs="https://hdl.huntington.org/digital/iiif/p16003coll16/196/1470,970,6360,7800/pct:30/0/default.jpg">
+               <milestone unit="line" edRef="Pon-4"/>
+               <lb/>dimpling the surface with their tails
+               <lb/>in the moonlight–<w>communica-
+               <lb/>ting</w> by a long flaxen line with <w>mys-
+               <lb/>terious</w> vespertinal fishes which had their
+               <lb/>dwelling 40 feet below, or sometimes
+               <lb/>dragging 60 feet of line about the 
+               <lb/>pond, as I drifted in the gentle night
+               <lb/>air–now and then feeling a slight
+               <lb/>vibration along it–indicative of
+               <lb/>some life prowling about its <w>extrem-
+               <lb/>ity</w>–of dull uncertain blundering
+               <lb/>purpose there, and slow to make
+               <lb/>up its mind–at length you 
+               <lb/>slowly raise, pulling hand over hand,
+               <lb/>some horned pout squeaking &amp; <w>squirm-
+               <lb/>ing</w> to the upper air.– It was
+               <lb/>very queer–in dark nights, when 
+               <lb/>your thoughts had wandered to
+               <lb/>vast and cosmogonal themes in
+               <lb/>other spheres–to feel this <mod><metamark function="insertion" place="inline" rend="caret"></metamark><add place="above">faint</add></mod> jerk
+               <lb/>which came to interrupt your dreams
+               <lb/>and link you to nature again.
+               <lb type="para-break"/>It seemed as if I might next cast
+               <lb/> my line upward into the air–as well
+               <lb/>as downward into this element which
+               <lb/>was hardly more dense.–
+ 
+               <zone type="blockDeletion" subtype="angled-so-pencil-double" ulx="1470" uly="8600" lrx="8470" lry="9600" facs="https://hdl.huntington.org/digital/iiif/p16003coll16/196/1470,8600,7000,1000/pct:30/0/default.jpg">
+                  <milestone unit="paragraph-Start" edRef="HL-1c"/>
+               <lb type="para-break"/>The main <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">reason and</mod></del></mod> <mod rend="default">inducement</mod>
+               <lb/>to fish was that it introduced me
+               <lb/>to the night and detained me there.
+               </zone>               
+            </zone>
+            <zone type="textflow" subtype="vertical-from-bottom" ulx="530" uly="780" lrx="1745" lry="9840" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/196/530,780,1215,9060/pct:30/90/default.jpg">
+               <milestone unit="line" edRef="Pon-3a"/>
+               <lb/><mod>
+                  <add place="margin">
+                     <note resp="#ehw">Written vertically from bottom in left margin, inserted after "hardly more dense.–"</note><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">Or sometimes at an earlier hour</mod></del></mod>
+                     <mod><add place="inline"><handShift medium="pencil"/> I</add></mod><mod rend="default"></mod>n 
+                     <mod> <handShift medium="pencil"/><del rend="hstrike"><mod rend="default">the</mod></del></mod>
+                     <mod><handShift medium="pencil"/><metamark function="insertion" place="inline" rend="caret"></metamark><handShift medium="pencil"/><add place="above">warm</add></mod>
+                     <mod rend="default">evening</mod><mod><add place="inline"><handShift medium="pencil"/>s </add></mod>
+                     <mod rend="default"></mod>I sat in my boat on the pond playing the flute, and saw the perch, which I seemed to have charmed hovering around me, and the moon travelling over the ribbed bottom, strewn with the wrecks of the forest. <mod><add place="inline"><handShift medium="pencil"/><milestone unit="line" edRef="Vil-2a"/> It was very pleasant</add></mod><note resp="#ehw">Catchwords referencing The Village 2a</note>
+                  </add>
+               </mod>  
+            </zone>
+            
+         </surface>
+         <surface xml:id="hm924v1n197">
+            <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/full/pct:30/0/default.jpg"></graphic>
+            <zone type="numbering" ulx="730" uly="3550" lrx="1675" lry="4120" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/197/730,3550,945,570/pct:30/0/default.jpg"><mod><handShift medium="pencil" resp="#fbs"/>P. 304</mod></zone>
+            <zone type="numbering" ulx="6830" uly="6140" lrx="7830" lry="6860" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/197/6830,6140,1000,720/pct:30/0/default.jpg">
+               <mod><handShift medium="pencil" resp="#fbs"/>P. 305</mod>              
+            </zone>
+            <zone type="blockDeletion" subtype="wavy-line-pencil">
+            <zone type="textflow">
+               <lb/>Fishermen and hunters see nature
+               <lb/>at an advantage which the <w>phi-
+                  <lb/>losopher</w> <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">can</mod></del></mod><mod rend="default">never enjoy</mod><mod><handShift medium="pencil"/>s</mod><mod rend="default"></mod>. They go
+               <lb/>through the fields with freedom 
+               <lb/>and abandonment–not formally,
+               <lb/>and see nature <mod><handShift medium="pencil"/><metamark function="insertion" place="inline" rend="caret"/><add place="above">as it were</add></mod> <mod rend="default"></mod>without looking at
+               <lb/>her, <mod><metamark place="inline" function="insertion" rend="caret"></metamark><add place="above">in a deshabille</add></mod> as members of her family–
+               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">without etiquette–&amp; in a desha-</mod></del></mod>
+               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">bille</mod></del></mod>. <mod><add place="inline"><handShift medium="pencil"/>VS It was very pleasant</add></mod> <note resp="#ehw">Catchwords referencing The Village 2a</note>
+            </zone>
+            </zone>
+            <zone type="blockDeletion" subtype="boxed-pencil-3s" ulx="950" uly="3630" lrx="7750" lry="9755" facs="https://hdl.huntington.org/digital/iiif/p16003coll16/197/950,3630,6800,6125/pct:30/0/default.jpg">
+               <zone type="blockDeletion" subtype="vertical-so-pencil-double" ulx="950" uly="3630" lrx="7750" lry="9755" facs="https://hdl.huntington.org/digital/iiif/p16003coll16/197/950,3630,6800,6125/pct:30/0/default.jpg">
+                  <zone type="textflow">
+                     <lb type="para-break"/>Flints or Sandy pond our greatest
+                     <lb/>lake and inland sea, containing
+                     <lb/>197 acres lies about a mile east
+                     <lb/>of me, and a walk through the
+                     <lb/>woods thither by such paths as
+                     <lb/>the Indians used was sometimes
+                     <lb/>my recreation in the summer. It
+                     <lb/>was worth the while if only to feel
+                     <lb/>the wind blow <mod><handShift medium="pencil"/><metamark place="inline" rend="caret" function="insertion" /></mod><mod><handShift medium="pencil"/><add place="above">on your cheek</add></mod> <mod rend="default">and see the waves</mod>
+                     <lb/>run and remember the life of
+                     <lb/>mariners. I went a <mod><metamark place="inline" rend="caret" function="insertion" /></mod><mod><handShift medium="pencil"/><add place="above"><unclear reason="faded" rend="style(gray)">c</unclear>hes<unclear reason="faded" rend="style(gray)">t</unclear></add></mod> <mod rend="default">nutting</mod>
+                     <lb/>there in the fall one windy day
+                     <lb/>when the nuts were dropping into
+                     <lb/>the water and were washed ashore;
+                     <lb/>and as I crept along its sedgey
+                     <lb/>shore–the fresh spray blowing
+                     <lb/>in my face, I came upon the
+                     <lb/>mouldering wreck of a boat,
+                     <lb/>the sides gone and hardly more
+                     <lb/>than the impression of its flat
+                  </zone>
+               </zone>
+            </zone>
+         </surface>
+   
+      </surfaceGrp>
+      <surfaceGrp n="Higher Laws 5a, 1c, 3a, 1b, 3b, 1d, 3d, 5b">
+         <surface xml:id="hm924v1n202">
+            <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/202/full/pct:30/0/default.jpg"/>
+            <zone type="numbering" ulx="715" uly="805" lrx="1805" lry="1385" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/202/715,805,1090,580/pct:30/0/default.jpg">
+               <mod>
+                  <handShift medium="pencil" resp="#fbs"/>
+                  <add place="left-margin-top">P. 333</add>
+               </mod>
+            </zone>
+            
+            <zone type="comment" ulx="2512" uly="780" lrx="4547" lry="1150" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/202/2512,780,2035,370/pct:30/0/default.jpg">
+               <mod>
+                  <handShift medium="pencil" resp="#fbs" />
+                  <add place="center-margin-top">(much rewritten)</add>
+               </mod>
+            </zone>
+            
+            <zone type="numbering" ulx="7230" uly="800" lrx="7865" lry="1130" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/202/7230,800,635,330/pct:30/0/default.jpg">
+               <mod>
+                  <handShift medium="pencil" resp="#hdt" />
+                  <add place="right-margin-top">151</add>
+               </mod>
+            </zone>
+            
+            <zone type="textflow" ulx="1445" uly="1075" lrx="7945" lry="9975" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/202/1445,1075,6500,8900/pct:10/0/default.jpg">
+               <lb/><milestone unit="line" edRef="HL-5a"/>revives from time to time, but <w>al-
+               <lb/></w>ways when I have done I feel that
+               <lb/>it would have been better if I
+               <lb/>had not fished. I think I am
+               <lb/>not mistaken. It is a faint in-
+               <lb/>timation–yet so are the first
+               <lb/>streaks of morning.<milestone unit="phrase" edRef="HL-1c"/> It tempts me
+               <lb/><mod>
+                  <add place="inspace">
+                     <handShift medium="pencil"/>perhaps, if I 
+                     <mod>
+                        <handShift medium="pencil"/><del rend="hstrike">attempt</del>
+                     </mod><note resp="#ehw">"attempt" written over illegible text</note>
+                     <mod>
+                        <add place="above-higher"><handShift medium="pencil" />can</add></mod>
+                  </add>
+               </mod>
+                  <mod>
+                     <add place="inline"><handShift medium="pencil"/>to<metamark rend="right-paren"></metamark> <mod rend="default">anylize my motive</mod>
+                     </add>
+                  </mod>  
+               <lb/>continually because <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" function="insertion" /></mod> it is a means
+               <lb/>of becoming acquainted with <w>na-
+               <lb/></w>ture–not 
+               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">only</mod></del></mod> <mod rend="default">with fishes</mod> 
+               <mod><handShift medium="pencil"/><add place="above"><metamark rend="caret" function="insertion"></metamark>merely</add></mod><mod rend="default">–</mod><metamark rend="left-paren" place="inline" function="deletion"></metamark><mod><del rend="hstrike"><mod rend="default">but</mod></del></mod>
+               <lb/><mod><handShift medium="pencil"/><add place="inspace">It introduces me to the night &amp; to the wildest scenes &amp; detains me</add></mod>
+               <lb/><mod>
+                  <del rend="hstrike">with</del>
+               </mod>
+               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">the</del></add>
+               </mod>
+               <mod rend="default"><mod><del rend="hstrike">night and</del>
+               </mod></mod>
+               
+               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">the</del></add>
+               </mod>
+               <mod>
+                  <mod rend="default"><del rend="hstrike">water–and the</del></mod></mod> 
+               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">other</del></add>
+                  </mod>
+               <lb/><mod><add place="inspace"><handShift medium="pencil"/>there. The best way to become acquainted with any scenery is to follow some pursuit</add></mod>
+               <lb/><mod><del rend="hstrike">scenery–which I should not</del></mod>
+               <lb/><mod><add place="inspace"><handShift medium="pencil"/>in it which harmonizes with it. Fishermen &amp; hunters see nature at an advantage</add></mod>
+               <lb/><mod><del rend="hstrike">otherwise see under the same as–</del></mod>
+               <lb/><mod><add place="inspace"><handShift medium="pencil"/>which the philosopher <note resp="#ehw">"the philosopher" written over illegible word</note>never enjoys. She is not afraid to exhibit herself to them.</add></mod>
+               <lb/><mod><del rend="hstrike">pects</del></mod>.<milestone unit="line" edRef="HL-3a"/>–and occasionally, though
+               <lb/>not so often, <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" /><add place="above">I fish</add></mod> 
+               <mod rend="default">because I wish</mod>
+               <lb/>to add fish to my fare for variety–
+               <lb/>I actually fish sometimes <mod><add place="inline"><handShift medium="pencil"/><metamark place="inline" function="deletion">(</metamark></add></mod> <mod rend="default"><mod><del rend="hstrike">as nat–</del></mod></mod>
+               <lb/><mod><del rend="hstrike">urally–and</del></mod><mod><add place="inline"><handShift medium="pencil"/><metamark place="inline" function="deletion">)</metamark></add></mod> <mod rend="default"> from the same kind</mod>
+               <lb/>of necessity–as the first fishermen
+               <lb/>did. <milestone unit="libe" edRef="HL-1b"/>I love sometimes to take rank
+               <lb/>hold on life, and spend my day
+               <lb/>more as the animals do. The novelty
+               <lb/>and adventure that are in this
+               <lb/>pursuit recommend it to me. <milestone unit="paragraph-Start" edRef="HL-3b"/>What-
+               <lb/>ever humanity I may conjure up
+               <lb/>against it is all factitious, &amp;
+               <lb/>concerns my philosophy more
+               <lb/>than my actual feelings–
+               <lb/>not that I am less humane than
+            </zone>
+            
+         </surface> 
+         <surface xml:id="hm924v1n203">
+            <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/203/full/pct:30/0/default.jpg" />
+            <zone type="numbering" ulx="620" uly="5635" lrx="1295" lry="6105" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/203/620,5635,675,470/pct:30/0/default.jpg">
+               <mod>
+                  <handShift medium="pencil" resp="#fbs"/>
+                  <add place="left-margin-mid">P. 330</add>
+               </mod> 
+            </zone>
+            <zone type="numbering" ulx="7005" uly="8040" lrx="7720" lry="8575" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/203/7005,8040,715,535/pct:30/0/default.jpg">
+               <mod>
+                  <handShift medium="pencil" resp="#fbs"/>
+                  <add place="right-margin-lower">P. 333</add>
+               </mod> 
+            </zone>
+            <zone type="textflow" ulx="800" uly="950" lrx="7300" lry="9850" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/203/800,950,6500,8900/pct:30/0/default.jpg">
+               <lb/>others–but I do not perceive
+               <lb/>that 
+               <mod><handShift medium="pencil"/><del rend="hzag"><mod rend="default">these</mod></del></mod>
+               <mod><handShift medium="pencil"/><add place="above">my feelings</add></mod>
+               <mod rend="default">are</mod> 
+               <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" /></mod>
+               <mod><handShift medium="pencil"/><add place="above">much</add></mod> 
+               <mod rend="default">affected</mod> 
+               <mod><handShift medium="pencil"/><del rend="hzag"><mod rend="default">very much</mod></del></mod>.
+               <lb/>I do not pity the fishes nor the
+               <lb/>worms. This is habit. <milestone unit="line" edRef="HL-1d"/>But the
+               <lb/>ramble by the river and meadow
+               <lb/>
+               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">seems to be</mod></del></mod>
+               <mod><handShift medium="pencil"/><add place="above">is otherwise</add></mod> 
+               <mod rend="default">incomplete, and</mod> 
+               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">to</mod></del></mod>
+               <lb/>want<mod><add place="inline"><handShift medium="pencil"/>s</add></mod> 
+               <mod rend="default">a sufficient</mod> 
+               <mod><handShift medium="pencil"/><add place="above">purpose</add></mod> 
+               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">aim for itself</mod></del></mod>
+               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">without this purpose</mod></del></mod><mod rend="default">. The traveller</mod>
+               <lb/>of the prairie is a hunter–of the
+               <lb/>head-waters of the Missouri
+               <lb/>&amp; Columbia–a trapper. Those
+               <lb/>who go to the Falls of St Mary
+               <lb/>are fishermen. The traveller
+               <lb/>who is only a traveller learns
+               <lb/>things by the halves, and at
+               <lb/>2<c style="rend(superscript)">nd</c> hand–and is poor <w>authori-
+               <lb/></w>ty.– <milestone unit="paragraph-Start" edRef="HL-3d"/>When 
+               <mod><metamark rend="caret" place="inline"></metamark></mod>
+               <mod><add place="above">some of</add></mod> my friends have
+               <lb/>asked me anxiously about their
+               <lb/>boys–whether they should let them
+               <lb/>hunt or not–I have answered
+               <lb/>yes–remembering that it was
+               <lb/>the best part of my education.
+               <lb/>
+               <mod><add place="inspace"><handShift medium="pencil"/>
+                     <mod>
+                        <add place="inline"><handShift medium="pencil"/>
+                           <mod><del rend="hstrike"><handShift medium="pencil"/>Aye Yes</del>
+                           </mod>
+                     </add>
+                     </mod> 
+                     <hi rend="underline">make</hi> them Hunters of such</add>
+               </mod> 
+               <mod>
+                  <add place="inline"><handShift medium="pencil"/><del rend="hstrike"><handShift medium="pencil"/>a stature</del>
+                  </add>
+               </mod>
+               <mod>
+                  <handShift medium="pencil" /><add place="above-higher">skill &amp; tenacity &amp; enterprise</add>
+               </mod><note resp="#ehw" cert="medium">"enterprise" written over "ambition"</note>
+               <mod>
+                  <add place="inline"><handShift medium="pencil"/>that at last they shall</add>
+               </mod>
+               <lb/><mod><add place="inspace"><handShift medium="pencil"/>not find game large enough for them in these woods.</add></mod>
+               <lb/><milestone unit="paragraph-Start" edRef="HL-5b"/>There is unquestionably this instinct
+               <lb/>in me which belongs to the lower 
+               <lb/>orders of creation.– Yet with <w>ev-
+               <lb/></w>ery year I am less a fisherman,
+               <lb/>though without more humanity.
+               <lb/><mod><handShift medium="pencil"/><metamark rend="caret" place="inline"></metamark><add place="above">or even wisdom as I fear–</add></mod><mod rend="default">When I have caught my fish</mod>
+               <lb/>&amp; cooked them, I have gained
+               <lb/>nothing by it, but perhaps lost               
+            </zone>
+ </surface>
+</surfaceGrp>
+   </sourceDoc>
+</TEI>
