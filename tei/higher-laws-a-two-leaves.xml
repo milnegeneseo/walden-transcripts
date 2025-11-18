@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/WaldenMSODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../out/WaldenMSODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/WaldenMSODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/WaldenMSODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -228,8 +228,7 @@
                <lb/>not mistaken. It is a faint in-
                <lb/>timation–yet so are the first
                <lb/>streaks of morning.<milestone unit="phrase" edRef="HL-1c"/> It tempts me
-               <lb/>continually because <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" function="insertion" /></mod> 
-               <mod>
+               <lb/><mod>
                   <add place="inspace">
                      <handShift medium="pencil"/>perhaps, if I 
                      <mod>
@@ -239,10 +238,11 @@
                         <add place="above-higher"><handShift medium="pencil" />can</add></mod>
                   </add>
                </mod>
-               <mod>
-                  <add place="inline"><handShift medium="pencil"/>to<metamark rend="right-paren"></metamark> anylize my motive
-                  </add>
-               </mod> it is a means
+                  <mod>
+                     <add place="inline"><handShift medium="pencil"/>to<metamark rend="right-paren"></metamark> <mod rend="default">anylize my motive</mod>
+                     </add>
+                  </mod>  
+               <lb/>continually because <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" function="insertion" /></mod> it is a means
                <lb/>of becoming acquainted with <w>na-
                <lb/></w>ture–not 
                <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">only</mod></del></mod> <mod rend="default">with fishes</mod> 
