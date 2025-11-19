@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="out/WaldenMSODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="out/WaldenMSODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/WaldenMSODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/WaldenMSODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -137,7 +137,8 @@
                <milestone unit="line" edRef="Pon-3a"/>
                <lb/><mod>
                   <add place="margin">
-                     <note resp="#ehw">Written vertically from bottom in left margin, inserted after "hardly more dense.–"</note><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">Or sometimes at an earlier hour</mod></del></mod>
+                     <note resp="#ehw">Written vertically from bottom in left margin, inserted after "hardly more dense.–"</note>
+                     <lb type="adjacent"/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">Or sometimes at an earlier hour</mod></del></mod>
                      <mod><add place="inline"><handShift medium="pencil"/> I</add></mod><mod rend="default"></mod>n 
                      <mod> <handShift medium="pencil"/><del rend="hstrike"><mod rend="default">the</mod></del></mod>
                      <mod><handShift medium="pencil"/><metamark function="insertion" place="inline" rend="caret"></metamark><handShift medium="pencil"/><add place="above">warm</add></mod>
@@ -158,12 +159,12 @@
             <zone type="textflow">
                <lb/>Fishermen and hunters see nature
                <lb/>at an advantage which the <w>phi-
-                  <lb/>losopher</w> <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">can</mod></del></mod><mod rend="default">never enjoy</mod><mod><handShift medium="pencil"/>s</mod><mod rend="default"></mod>. They go
+                  <lb/>losopher</w> <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">can </mod></del></mod><mod rend="default">never enjoy</mod><mod><handShift medium="pencil"/>s</mod><mod rend="default"></mod>. They go
                <lb/>through the fields with freedom 
                <lb/>and abandonment–not formally,
-               <lb/>and see nature <mod><handShift medium="pencil"/><metamark function="insertion" place="inline" rend="caret"/><add place="above">as it were</add></mod> <mod rend="default"></mod>without looking at
-               <lb/>her, <mod><metamark place="inline" function="insertion" rend="caret"></metamark><add place="above">in a deshabille</add></mod> as members of her family–
-               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">without etiquette–&amp; in a desha-</mod></del></mod>
+               <lb/>and see nature <mod><handShift medium="pencil"/><metamark function="insertion" place="inline" rend="caret"/><add place="above">as it were </add></mod> <mod rend="default"></mod>without looking at
+               <lb/>her, <mod><metamark place="inline" function="insertion" rend="caret"></metamark><add place="above">in a deshabille </add></mod> as members of her family–
+               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">without etiquette–&amp; in a desha- </mod></del></mod>
                <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">bille</mod></del></mod>. <mod><add place="inline"><handShift medium="pencil"/>VS It was very pleasant</add></mod> <note resp="#ehw">Catchwords referencing The Village 2a</note>
             </zone>
             </zone>
@@ -178,7 +179,7 @@
                      <lb/>the Indians used was sometimes
                      <lb/>my recreation in the summer. It
                      <lb/>was worth the while if only to feel
-                     <lb/>the wind blow <mod><handShift medium="pencil"/><metamark place="inline" rend="caret" function="insertion" /></mod><mod><handShift medium="pencil"/><add place="above">on your cheek</add></mod> <mod rend="default">and see the waves</mod>
+                     <lb/>the wind blow <mod><handShift medium="pencil"/><metamark place="inline" rend="caret" function="insertion" /></mod><mod><handShift medium="pencil"/><add place="above">on your cheek </add></mod> <mod rend="default">and see the waves </mod>
                      <lb/>run and remember the life of
                      <lb/>mariners. I went a <mod><metamark place="inline" rend="caret" function="insertion" /></mod><mod><handShift medium="pencil"/><add place="above"><unclear reason="faded" rend="style(gray)">c</unclear>hes<unclear reason="faded" rend="style(gray)">t</unclear></add></mod> <mod rend="default">nutting</mod>
                      <lb/>there in the fall one windy day
@@ -235,32 +236,32 @@
                         <handShift medium="pencil"/><del rend="hstrike">attempt</del>
                      </mod><note resp="#ehw">"attempt" written over illegible text</note>
                      <mod>
-                        <add place="above-higher"><handShift medium="pencil" />can</add></mod>
+                        <add place="above"><handShift medium="pencil" />can </add></mod>
                   </add>
                </mod>
                   <mod>
-                     <add place="inline"><handShift medium="pencil"/>to<metamark rend="right-paren"></metamark> <mod rend="default">anylize my motive</mod>
+                     <add place="inline"><handShift medium="pencil"/>to<metamark rend="right-paren"></metamark> anylize my motive
                      </add>
                   </mod>  
                <lb/>continually because <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" function="insertion" /></mod> it is a means
                <lb/>of becoming acquainted with <w>na-
                <lb/></w>ture–not 
-               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">only</mod></del></mod> <mod rend="default">with fishes</mod> 
-               <mod><handShift medium="pencil"/><add place="above"><metamark rend="caret" function="insertion"></metamark>merely</add></mod><mod rend="default">–</mod><metamark rend="left-paren" place="inline" function="deletion"></metamark><mod><del rend="hstrike"><mod rend="default">but</mod></del></mod>
+               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">only </mod></del></mod> <mod rend="default">with fishes </mod> 
+               <mod><handShift medium="pencil"/><add place="above"><metamark rend="caret" function="insertion"></metamark>merely </add></mod><mod rend="default">–</mod><metamark rend="left-paren" place="inline" function="deletion"></metamark><mod><del rend="hstrike"><mod rend="default">but</mod></del></mod>
                <lb/><mod><handShift medium="pencil"/><add place="inspace">It introduces me to the night &amp; to the wildest scenes &amp; detains me</add></mod>
                <lb/><mod>
-                  <del rend="hstrike">with</del>
+                  <del rend="hstrike">with </del>
                </mod>
-               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">the</del></add>
+               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">the </del></add>
                </mod>
-               <mod rend="default"><mod><del rend="hstrike">night and</del>
+               <mod rend="default"><mod><del rend="hstrike">night and </del>
                </mod></mod>
                
-               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">the</del></add>
+               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">the </del></add>
                </mod>
                <mod>
-                  <mod rend="default"><del rend="hstrike">water–and the</del></mod></mod> 
-               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">other</del></add>
+                  <mod rend="default"><del rend="hstrike">water–and the </del></mod></mod> 
+               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">other </del></add>
                   </mod>
                <lb/><mod><add place="inspace"><handShift medium="pencil"/>there. The best way to become acquainted with any scenery is to follow some pursuit</add></mod>
                <lb/><mod><del rend="hstrike">scenery–which I should not</del></mod>
@@ -268,7 +269,7 @@
                <lb/><mod><del rend="hstrike">otherwise see under the same as–</del></mod>
                <lb/><mod><add place="inspace"><handShift medium="pencil"/>which the philosopher <note resp="#ehw">"the philosopher" written over illegible word</note>never enjoys. She is not afraid to exhibit herself to them.</add></mod>
                <lb/><mod><del rend="hstrike">pects</del></mod>.<milestone unit="line" edRef="HL-3a"/>–and occasionally, though
-               <lb/>not so often, <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" /><add place="above">I fish</add></mod> 
+               <lb/>not so often, <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" /><add place="above">I fish </add></mod> 
                <mod rend="default">because I wish</mod>
                <lb/>to add fish to my fare for variety–
                <lb/>I actually fish sometimes <mod><add place="inline"><handShift medium="pencil"/><metamark place="inline" function="deletion">(</metamark></add></mod> <mod rend="default"><mod><del rend="hstrike">as nat–</del></mod></mod>
@@ -304,24 +305,24 @@
             <zone type="textflow" ulx="800" uly="950" lrx="7300" lry="9850" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/203/800,950,6500,8900/pct:30/0/default.jpg">
                <lb/>others–but I do not perceive
                <lb/>that 
-               <mod><handShift medium="pencil"/><del rend="hzag"><mod rend="default">these</mod></del></mod>
-               <mod><handShift medium="pencil"/><add place="above">my feelings</add></mod>
+               <mod><handShift medium="pencil"/><del rend="hzag"><mod rend="default">these </mod></del></mod>
+               <mod><handShift medium="pencil"/><add place="above">my feelings </add></mod>
                <mod rend="default">are</mod> 
                <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" /></mod>
-               <mod><handShift medium="pencil"/><add place="above">much</add></mod> 
-               <mod rend="default">affected</mod> 
-               <mod><handShift medium="pencil"/><del rend="hzag"><mod rend="default">very much</mod></del></mod>.
+               <mod><handShift medium="pencil"/><add place="above">much </add></mod> 
+               <mod rend="default">affected </mod> 
+               <mod><handShift medium="pencil"/><del rend="hzag"><mod rend="default">very much </mod></del></mod>.
                <lb/>I do not pity the fishes nor the
                <lb/>worms. This is habit. <milestone unit="line" edRef="HL-1d"/>But the
                <lb/>ramble by the river and meadow
                <lb/>
-               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">seems to be</mod></del></mod>
-               <mod><handShift medium="pencil"/><add place="above">is otherwise</add></mod> 
-               <mod rend="default">incomplete, and</mod> 
-               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">to</mod></del></mod>
-               <lb/>want<mod><add place="inline"><handShift medium="pencil"/>s</add></mod> 
-               <mod rend="default">a sufficient</mod> 
-               <mod><handShift medium="pencil"/><add place="above">purpose</add></mod> 
+               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">seems to be </mod></del></mod>
+               <mod><handShift medium="pencil"/><add place="above">is otherwise </add></mod> 
+               <mod rend="default">incomplete, and </mod> 
+               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">to </mod></del></mod>
+               <lb/>want<mod><add place="inline"><handShift medium="pencil"/>s </add></mod> 
+               <mod rend="default">a sufficient </mod> 
+               <mod><handShift medium="pencil"/><add place="above">purpose </add></mod> 
                <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">aim for itself</mod></del></mod>
                <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">without this purpose</mod></del></mod><mod rend="default">. The traveller</mod>
                <lb/>of the prairie is a hunter–of the
@@ -344,21 +345,21 @@
                <mod><add place="inspace"><handShift medium="pencil"/>
                      <mod>
                         <add place="inline"><handShift medium="pencil"/>
-                           <mod><del rend="hstrike"><handShift medium="pencil"/>Aye Yes</del>
+                           <mod><del rend="hstrike"><handShift medium="pencil"/>Aye Yes </del>
                            </mod>
                      </add>
                      </mod> 
-                     <hi rend="underline">make</hi> them Hunters of such</add>
+                     <hi rend="underline">make</hi> them Hunters of such </add>
                </mod> 
                <mod>
-                  <add place="inline"><handShift medium="pencil"/><del rend="hstrike"><handShift medium="pencil"/>a stature</del>
+                  <add place="inline"><handShift medium="pencil"/><del rend="hstrike"><handShift medium="pencil"/>a stature </del>
                   </add>
                </mod>
                <mod>
-                  <handShift medium="pencil" /><add place="above-higher">skill &amp; tenacity &amp; enterprise</add>
+                  <handShift medium="pencil" /><add place="above">skill &amp; tenacity &amp; enterprise </add>
                </mod><note resp="#ehw" cert="medium">"enterprise" written over "ambition"</note>
                <mod>
-                  <add place="inline"><handShift medium="pencil"/>that at last they shall</add>
+                  <add place="inline"><handShift medium="pencil"/>that at last they shall </add>
                </mod>
                <lb/><mod><add place="inspace"><handShift medium="pencil"/>not find game large enough for them in these woods.</add></mod>
                <lb/><milestone unit="paragraph-Start" edRef="HL-5b"/>There is unquestionably this instinct
@@ -366,7 +367,7 @@
                <lb/>orders of creation.– Yet with <w>ev-
                <lb/></w>ery year I am less a fisherman,
                <lb/>though without more humanity.
-               <lb/><mod><handShift medium="pencil"/><metamark rend="caret" place="inline"></metamark><add place="above">or even wisdom as I fear–</add></mod><mod rend="default">When I have caught my fish</mod>
+               <lb/><mod><handShift medium="pencil"/><metamark rend="caret" place="inline"></metamark><add place="above">or even wisdom as I fear– </add></mod><mod rend="default">When I have caught my fish</mod>
                <lb/>&amp; cooked them, I have gained
                <lb/>nothing by it, but perhaps lost               
             </zone>
