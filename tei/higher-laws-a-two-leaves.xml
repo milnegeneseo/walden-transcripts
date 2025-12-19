@@ -128,7 +128,7 @@
  
                <zone type="blockDeletion" subtype="angled-so-pencil-double" ulx="1470" uly="8600" lrx="8470" lry="9600" facs="https://hdl.huntington.org/digital/iiif/p16003coll16/196/1470,8600,7000,1000/pct:30/0/default.jpg">
                   <milestone unit="paragraph-Start" edRef="HL-1c"/>
-               <lb type="para-break"/>The main <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">reason and</mod></del></mod> <mod rend="default">inducement</mod>
+               <lb type="para-break"/>The main <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">reason and</mod></del></mod><mod rend="default"> inducement</mod>
                <lb/>to fish was that it introduced me
                <lb/>to the night and detained me there.
                </zone>               
@@ -137,13 +137,13 @@
                <milestone unit="line" edRef="Pon-3a"/>
                <lb/><mod>
                   <add place="margin">
-                     <note resp="#ehw">Written vertically from bottom in left margin, inserted after "hardly more dense.–"</note>
+                     <note resp="#ehw">Written vertically from bottom in left margin, marked to insert after "was hardly more dense.–"</note>
                      <lb type="adjacent"/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">Or sometimes at an earlier hour</mod></del></mod>
                      <mod><add place="inline"><handShift medium="pencil"/> I</add></mod><mod rend="default"></mod>n 
                      <mod> <handShift medium="pencil"/><del rend="hstrike"><mod rend="default">the</mod></del></mod>
                      <mod><handShift medium="pencil"/><metamark function="insertion" place="inline" rend="caret"></metamark><handShift medium="pencil"/><add place="above">warm</add></mod>
-                     <mod rend="default">evening</mod><mod><add place="inline"><handShift medium="pencil"/>s </add></mod>
-                     <mod rend="default"></mod>I sat in my boat on the pond playing the flute, and saw the perch, which I seemed to have charmed hovering around me, and the moon travelling over the ribbed bottom, strewn with the wrecks of the forest. <mod><add place="inline"><handShift medium="pencil"/><milestone unit="line" edRef="Vil-2a"/> It was very pleasant</add></mod><note resp="#ehw">Catchwords referencing The Village 2a</note>
+                     <mod rend="default">evening</mod>
+                     <mod rend="default"></mod> I sat in my boat on the pond playing the flute, and saw the perch, which I seemed to have charmed hovering around me, and the moon travelling over the ribbed bottom, strewn with the wrecks of the forest. <mod><add place="inline"><handShift medium="pencil"/><milestone unit="line" edRef="Vil-2a"/> It was very pleasant</add></mod><note resp="#ehw">Catchphrase referencing "The Village" 2a</note>
                   </add>
                </mod>  
             </zone><!-- end image 196 transcript -->
@@ -165,7 +165,7 @@
                <lb/>and see nature <mod><handShift medium="pencil"/><metamark function="insertion" place="inline" rend="caret"/><add place="above">as it were </add></mod> <mod rend="default"></mod>without looking at
                <lb/>her, <mod><metamark place="inline" function="insertion" rend="caret"></metamark><add place="above">in a deshabille </add></mod> as members of her family–
                <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">without etiquette–&amp; in a desha- </mod></del></mod>
-               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">bille</mod></del></mod>. <mod><add place="inline"><handShift medium="pencil"/>VS It was very pleasant</add></mod> <note resp="#ehw">Catchwords referencing The Village 2a</note>
+               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">bille</mod></del></mod>. <mod><add place="inline"><handShift medium="pencil"/>VS It was very pleasant</add></mod> <note resp="#ehw">Catchphrase referencing "The Village" 2a</note>
             </zone>
             </zone>
             <zone type="blockDeletion" subtype="boxed-pencil-3s" ulx="950" uly="3630" lrx="7750" lry="9755" facs="https://hdl.huntington.org/digital/iiif/p16003coll16/197/950,3630,6800,6125/pct:30/0/default.jpg">
@@ -187,7 +187,7 @@
                      <lb/>the water and were washed ashore;
                      <lb/>and as I crept along its sedgey
                      <lb/>shore–the fresh spray blowing
-                     <lb/>in my face, I came upon the
+                     <lb/>in my face I came upon the
                      <lb/>mouldering wreck of a boat,
                      <lb/>the sides gone and hardly more
                      <lb/>than the impression of its flat
@@ -261,7 +261,7 @@
                </mod>
                <mod>
                   <mod rend="default"><del rend="hstrike">water–and the </del></mod></mod> 
-               <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">other </del></add>
+               <mod><add place="inline"><handShift medium="pencil"/>other</add>
                   </mod>
                <lb/><mod><add place="inspace"><handShift medium="pencil"/>there. The best way to become acquainted with any scenery is to follow some pursuit</add></mod>
                <lb/><mod><del rend="hstrike">scenery–which I should not</del></mod>
@@ -323,7 +323,7 @@
                <lb/>want<mod><add place="inline"><handShift medium="pencil"/>s </add></mod> 
                <mod rend="default">a sufficient </mod> 
                <mod><handShift medium="pencil"/><add place="above">purpose </add></mod> 
-               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">aim for itself</mod></del></mod>
+               <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">aim for itself</mod></del></mod>–
                <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">without this purpose</mod></del></mod><mod rend="default">. The traveller</mod>
                <lb/>of the prairie is a hunter–of the
                <lb/>head-waters of the Missouri
