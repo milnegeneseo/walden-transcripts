@@ -98,7 +98,7 @@
             </zone>
             
             <zone type="textflow" subtype="body-text" ulx="1470" uly="970" lrx="7830" lry="8770" facs="https://hdl.huntington.org/digital/iiif/p16003coll16/196/1470,970,6360,7800/pct:30/0/default.jpg">
-               <milestone unit="line" edRef="Pon-4"/>
+               <milestone unit="line" edRef="Pon-4"/><!-- begin image 196 transcript --> 
                <lb/>dimpling the surface with their tails
                <lb/>in the moonlight–<w>communica-
                <lb/>ting</w> by a long flaxen line with <w>mys-
@@ -146,7 +146,7 @@
                      <mod rend="default"></mod>I sat in my boat on the pond playing the flute, and saw the perch, which I seemed to have charmed hovering around me, and the moon travelling over the ribbed bottom, strewn with the wrecks of the forest. <mod><add place="inline"><handShift medium="pencil"/><milestone unit="line" edRef="Vil-2a"/> It was very pleasant</add></mod><note resp="#ehw">Catchwords referencing The Village 2a</note>
                   </add>
                </mod>  
-            </zone>
+            </zone><!-- end image 196 transcript -->
             
          </surface>
          <surface xml:id="hm924v1n197">
@@ -154,7 +154,7 @@
             <zone type="numbering" ulx="730" uly="3550" lrx="1675" lry="4120" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/197/730,3550,945,570/pct:30/0/default.jpg"><mod><handShift medium="pencil" resp="#fbs"/>P. 304</mod></zone>
             <zone type="numbering" ulx="6830" uly="6140" lrx="7830" lry="6860" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/197/6830,6140,1000,720/pct:30/0/default.jpg">
                <mod><handShift medium="pencil" resp="#fbs"/>P. 305</mod>              
-            </zone>
+            </zone><!-- begin image 197 transcript -->
             <zone type="blockDeletion" subtype="wavy-line-pencil">
             <zone type="textflow">
                <lb/>Fishermen and hunters see nature
@@ -193,7 +193,7 @@
                      <lb/>than the impression of its flat
                   </zone>
                </zone>
-            </zone>
+            </zone> <!-- end image 197 transcript -->
          </surface>
    
       </surfaceGrp>
@@ -221,7 +221,7 @@
                </mod>
             </zone>
             
-            <zone type="textflow" ulx="1445" uly="1075" lrx="7945" lry="9975" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/202/1445,1075,6500,8900/pct:10/0/default.jpg">
+            <zone type="textflow" ulx="1445" uly="1075" lrx="7945" lry="9975" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/202/1445,1075,6500,8900/pct:10/0/default.jpg"><!-- begin image 202 transcript -->
                <lb/><milestone unit="line" edRef="HL-5a"/>revives from time to time, but <w>al-
                <lb/></w>ways when I have done I feel that
                <lb/>it would have been better if I
@@ -285,7 +285,7 @@
                <lb/>concerns my philosophy more
                <lb/>than my actual feelings–
                <lb/>not that I am less humane than
-            </zone>
+            </zone><!-- end image 202 transcript -->
             
          </surface> 
          <surface xml:id="hm924v1n203">
@@ -301,7 +301,7 @@
                   <handShift medium="pencil" resp="#fbs"/>
                   <add place="right-margin-lower">P. 333</add>
                </mod> 
-            </zone>
+            </zone><!-- begin image 203 transcript -->
             <zone type="textflow" ulx="800" uly="950" lrx="7300" lry="9850" facs="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/203/800,950,6500,8900/pct:30/0/default.jpg">
                <lb/>others–but I do not perceive
                <lb/>that 
@@ -370,7 +370,7 @@
                <lb/><mod><handShift medium="pencil"/><metamark rend="caret" place="inline"></metamark><add place="above">or even wisdom as I fear– </add></mod><mod rend="default">When I have caught my fish</mod>
                <lb/>&amp; cooked them, I have gained
                <lb/>nothing by it, but perhaps lost               
-            </zone>
+            </zone><!-- end image 203 transcript -->
  </surface>
 </surfaceGrp>
    </sourceDoc>
