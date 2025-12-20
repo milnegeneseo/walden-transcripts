@@ -249,31 +249,30 @@
                <mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">only </mod></del></mod> <mod rend="default">with fishes </mod> 
                <mod><handShift medium="pencil"/><add place="above"><metamark rend="caret" function="insertion"></metamark>merely </add></mod><mod rend="default">–</mod><metamark rend="left-paren" place="inline" function="deletion"></metamark><mod><del rend="hstrike"><mod rend="default">but</mod></del></mod>
                <lb/><mod><handShift medium="pencil"/><add place="inspace">It introduces me to the night &amp; to the wildest scenes &amp; detains me</add></mod>
-               <lb/><mod>
-                  <del rend="hstrike">with </del>
+               <lb/><mod><handShift medium="pencil"/>
+                  <del rend="hstrike"><mod rend="default">with </mod></del>
                </mod>
                <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">the </del></add>
+               </mod><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">night and </mod></del>
                </mod>
-               <mod rend="default"><mod><del rend="hstrike">night and </del>
-               </mod></mod>
                
                <mod><add place="inline"><handShift medium="pencil"/><del rend="hstrike">the </del></add>
                </mod>
                <mod>
-                  <mod rend="default"><del rend="hstrike">water–and the </del></mod></mod> 
-               <mod><add place="inline"><handShift medium="pencil"/>other</add>
+                  <handShift medium="pencil"/><del rend="hstrike"><mod rend="default">water–and the</mod></del></mod>
+ <mod><add place="inline"><handShift medium="pencil"/> other</add>
                   </mod>
                <lb/><mod><add place="inspace"><handShift medium="pencil"/>there. The best way to become acquainted with any scenery is to follow some pursuit</add></mod>
-               <lb/><mod><del rend="hstrike">scenery–which I should not</del></mod>
+               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">scenery–which I should not</mod></del></mod>
                <lb/><mod><add place="inspace"><handShift medium="pencil"/>in it which harmonizes with it. Fishermen &amp; hunters see nature at an advantage</add></mod>
-               <lb/><mod><del rend="hstrike">otherwise see under the same as–</del></mod>
+               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">otherwise see under the same as–</mod></del></mod>
                <lb/><mod><add place="inspace"><handShift medium="pencil"/>which the philosopher <note resp="#ehw">"the philosopher" written over illegible word</note>never enjoys. She is not afraid to exhibit herself to them.</add></mod>
-               <lb/><mod><del rend="hstrike">pects</del></mod>.<milestone unit="line" edRef="HL-3a"/>–and occasionally, though
+               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">pects</mod></del></mod><mod rend="default">.<milestone unit="line" edRef="HL-3a"/>– and occasionally, though</mod>
                <lb/>not so often, <mod><handShift medium="pencil"/><metamark rend="caret" place="inline" /><add place="above">I fish </add></mod> 
                <mod rend="default">because I wish</mod>
                <lb/>to add fish to my fare for variety–
-               <lb/>I actually fish sometimes <mod><add place="inline"><handShift medium="pencil"/><metamark place="inline" function="deletion">(</metamark></add></mod> <mod rend="default"><mod><del rend="hstrike">as nat–</del></mod></mod>
-               <lb/><mod><del rend="hstrike">urally–and</del></mod><mod><add place="inline"><handShift medium="pencil"/><metamark place="inline" function="deletion">)</metamark></add></mod> <mod rend="default"> from the same kind</mod>
+               <lb/>I actually fish sometimes <mod><add place="inline"><handShift medium="pencil"/><metamark place="inline" function="deletion">(</metamark></add></mod> <mod rend="default"><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">as nat–</mod></del></mod></mod>
+               <lb/><mod><handShift medium="pencil"/><del rend="hstrike"><mod rend="default">urally–and</mod></del></mod><mod><add place="inline"><handShift medium="pencil"/><metamark place="inline" function="deletion">)</metamark></add></mod> <mod rend="default"> from the same kind</mod>
                <lb/>of necessity–as the first fishermen
                <lb/>did. <milestone unit="libe" edRef="HL-1b"/>I love sometimes to take rank
                <lb/>hold on life, and spend my day
